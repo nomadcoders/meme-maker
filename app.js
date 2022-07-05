@@ -35,6 +35,7 @@ function startPainting() {
 }
 function cancelPainting() {
   isPainting = false;
+  // ctx.fill();
   ctx.beginPath();
 }
 function onLineWidthChange(event) {
